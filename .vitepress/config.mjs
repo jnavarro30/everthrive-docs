@@ -2,13 +2,14 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "Testing Docs",
-  description: "Software testing",
+  base: '/everthrive-docs/',
+  title: "EverThrive Docs",
+  description: "Software",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/docs/markdown-examples' }
+      { text: 'Docs', link: '/docs/guide_standards/strategy' }
     ],
 
     sidebar: [

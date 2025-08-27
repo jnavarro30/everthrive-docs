@@ -3,23 +3,23 @@
 layout: home
 
 hero:
-  name: "Testing Documentation"
-  text: "Strategy and Plans"
-  tagline: Software testing standards and procedures
+  name: "EverThrive"
+  text: "Documentation"
+  tagline: Platforms
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /docs/markdown-examples
+      text: EverThrive
+      link: /docs/plans/everthrive
     - theme: alt
-      text: API Examples
-      link: /docs/api-examples
+      text: IHH
+      link: /docs/plan/ihh
 
-features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+# features:
+#   - title: Feature A
+#     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+#   - title: Feature B
+#     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+#   - title: Feature C
+#     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 ---
 

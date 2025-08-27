@@ -1,12 +1,13 @@
 {
-  "name": "testing-docs",
+  "name": "everthrive-docs",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "vitepress dev",
     "build": "vitepress build",
-    "preview": "vitepress preview"
+    "preview": "vitepress preview",
+    "gh-deploy": "gh-pages -d .vitepress/dist"
   },
   "author": "",
   "license": "ISC",
