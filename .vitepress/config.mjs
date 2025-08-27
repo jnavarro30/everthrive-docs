@@ -15,8 +15,8 @@ export default defineConfig({
       {
         text: 'Introduction',
         items: [
-          { text: 'Intro', link: '/docs/introduction/intro' },
-          { text: 'Scope', link: '/docs/introduction/scope' },
+          { text: 'Strategy', link: '/docs/introduction/strategy' },
+          { text: 'Plan', link: '/docs/introduction/plan' },
           // { text: 'Markdown Examples', link: '/markdown-examples' },
           // { text: 'Runtime API Examples', link: '/api-examples' },
         ]
