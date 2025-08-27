@@ -13,23 +13,31 @@ export default defineConfig({
 
     sidebar: [
       {
-        text: 'Introduction',
+        text: 'Guide & Standards',
         items: [
-          { text: 'Strategy', link: '/docs/introduction/strategy' },
-          { text: 'Plan', link: '/docs/introduction/plan' },
+          { text: 'Test Strategy', link: '/docs/guide_standards/strategy' },
+          { text: 'Development', link: '/docs/guide_standards/development' },
+          { text: 'Architecture', link: '/docs/guide_standards/architecture' },
           // { text: 'Markdown Examples', link: '/markdown-examples' },
           // { text: 'Runtime API Examples', link: '/api-examples' },
         ]
       },
       {
-        text: 'Examples',
+        text: 'Plans',
         items: [
-          { text: 'Markdown Examples', link: '/docs/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/docs/api-examples' },
+          { text: 'EverThrive', link: '/docs/plans/everthrive' },
           // { text: 'Markdown Examples', link: '/markdown-examples' },
           // { text: 'Runtime API Examples', link: '/api-examples' },
         ]
-      }
+      },
+      {
+        text: 'Support',
+        items: [
+          { text: 'Calls', link: '/docs/support/calls' },
+          // { text: 'Markdown Examples', link: '/markdown-examples' },
+          // { text: 'Runtime API Examples', link: '/api-examples' },
+        ]
+      },
     ],
 
     socialLinks: [

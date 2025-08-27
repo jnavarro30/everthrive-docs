@@ -1,32 +1,34 @@
 ---
 outline: deep
 ---
+# EverThrive
 
-# Introduction
+### Project Name: EverThrive
+### Version: 1.0
+### Prepared By: EverThrive Team
+### Date: August 27, 2025 
 
-This document outlines the software testing strategy for ensuring high-quality delivery of the application across mobile and web platforms. Both manual and automated testing will be applied to maximize coverage, efficiency, and defect detection.
+<br>
 
 ## Table of Contents
-1. [Objectives](#objectives)  
-2. [Scope](#scope)  
-3. [Test Approach](#test-approach)  
-   - [Risk-Based Testing](#risk-based-testing)  
-   - [Test Pyramid Strategy](#test-pyramid-strategy)  
-   - [Scenario-Based Testing](#scenario-based-testing)  
-   - [Data-Driven Testing](#data-driven-testing)  
-   - [Exploratory Testing](#exploratory-testing)  
-4. [Test Coverage](#test-coverage)  
-5. [Test Execution Strategy](#test-execution-strategy)  
-   - [Manual Testing](#manual-testing)  
-   - [Automated Testing](#automated-testing)  
-6. [Test Environments](#test-environments)  
-7. [Exit Criteria](#exit-criteria)  
-8. [Deliverables](#deliverables)  
-9. [Roles & Responsibilities](#roles--responsibilities)  
+1. [Introduction](#introduction)
+2. [Objectives](#objectives)  
+3. [Scope](#scope)  
+4. [Test Approach](#test-approach)  
+5. [Test Coverage](#test-coverage)  
+6. [Test Execution Strategy](#test-execution-strategy)   
+7. [Test Environments](#test-environments)  
+8. [Exit Criteria](#exit-criteria)  
+9. [Deliverables](#deliverables)  
+10. [Roles & Responsibilities](#roles--responsibilities)  
+
+## Introduction
+
+This document outlines the software testing strategy for ensuring high-quality delivery of the application across devices. Both manual and automated testing will be applied to maximize coverage, efficiency, and defect detection.
 
 ## Objectives
 
-- Ensure high-quality user experience across mobile (Appium) and web (Playwright) platforms.
+- Ensure high-quality user experience across the chrome browser and tv devices.
 
 - Achieve broad functional coverage through automation and deep exploratory coverage via manual testing.
 
@@ -41,7 +43,7 @@ This document outlines the software testing strategy for ensuring high-quality d
 
 - Regression and smoke testing.
 
-- Chrome browser & cross-device (mobile, tv) testing.
+- Chrome browser & cross-device (tv) testing.
 
 - Exploratory testing (usability, accessibility, error-handling).
 
@@ -80,6 +82,8 @@ This document outlines the software testing strategy for ensuring high-quality d
 
 - Automate tests using parameterized datasets (roles, input variations).
 
+- Test using Multiple Accounts (Empty and Populated for Manager, CR and at least 1 Contact)
+
 - Reuse data pools for manual and automated test execution.
 
 #### Exploratory Testing
@@ -111,9 +115,7 @@ This document outlines the software testing strategy for ensuring high-quality d
 
 #### Automated Testing
 
-- Appium: Mobile regression & smoke tests across target devices.
-
-- Playwright: Web cross-browser regression, smoke tests, and workflow automation.
+- Playwright: Chrome browser regression, smoke tests, and workflow automation.
 
 - Data-driven suites for repeatable test coverage.
 
@@ -127,9 +129,9 @@ This document outlines the software testing strategy for ensuring high-quality d
 
 - Device/browser coverage includes:
 
-    - Mobile: Latest Android/iOS, plus one legacy OS version.
+    <!-- - Mobile: Latest Android/iOS, plus one legacy OS version. -->
 
-    - Web: Chrome, Safari, Firefox, Edge (latest 2 versions).
+    - Web: Chrome.
 
 ## Exit Criteria
 
