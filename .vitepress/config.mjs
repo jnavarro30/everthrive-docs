@@ -27,18 +27,19 @@ export default defineConfig({
         text: 'Plans',
         items: [
           { text: 'EverThrive', link: '/docs/plans/everthrive' },
+          { text: 'Support Related', link: '/docs/plans/support' },
           // { text: 'Markdown Examples', link: '/markdown-examples' },
           // { text: 'Runtime API Examples', link: '/api-examples' },
         ]
       },
-      {
-        text: 'Support',
-        items: [
-          { text: 'Calls', link: '/docs/support/calls' },
-          // { text: 'Markdown Examples', link: '/markdown-examples' },
-          // { text: 'Runtime API Examples', link: '/api-examples' },
-        ]
-      },
+      // {
+      //   text: 'Support',
+      //   items: [
+      //     { text: 'Calls', link: '/docs/support/calls' },
+      //     // { text: 'Markdown Examples', link: '/markdown-examples' },
+      //     // { text: 'Runtime API Examples', link: '/api-examples' },
+      //   ]
+      // },
     ],
 
     socialLinks: [
